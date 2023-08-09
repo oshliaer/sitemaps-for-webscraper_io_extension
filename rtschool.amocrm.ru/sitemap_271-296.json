@@ -1,0 +1,80 @@
+{
+  "_id": "rtschool_amocrm_ru_contacts_list_271-296",
+  "startUrl": [
+    "https://rtschool.amocrm.ru/contacts/list/contacts/page/271/?skip_filter=Y",
+    "https://rtschool.amocrm.ru/contacts/list/contacts/page/272/?skip_filter=Y",
+    "https://rtschool.amocrm.ru/contacts/list/contacts/page/273/?skip_filter=Y",
+    "https://rtschool.amocrm.ru/contacts/list/contacts/page/274/?skip_filter=Y",
+    "https://rtschool.amocrm.ru/contacts/list/contacts/page/275/?skip_filter=Y",
+    "https://rtschool.amocrm.ru/contacts/list/contacts/page/276/?skip_filter=Y",
+    "https://rtschool.amocrm.ru/contacts/list/contacts/page/277/?skip_filter=Y",
+    "https://rtschool.amocrm.ru/contacts/list/contacts/page/278/?skip_filter=Y",
+    "https://rtschool.amocrm.ru/contacts/list/contacts/page/279/?skip_filter=Y",
+    "https://rtschool.amocrm.ru/contacts/list/contacts/page/280/?skip_filter=Y",
+    "https://rtschool.amocrm.ru/contacts/list/contacts/page/281/?skip_filter=Y",
+    "https://rtschool.amocrm.ru/contacts/list/contacts/page/282/?skip_filter=Y",
+    "https://rtschool.amocrm.ru/contacts/list/contacts/page/283/?skip_filter=Y",
+    "https://rtschool.amocrm.ru/contacts/list/contacts/page/284/?skip_filter=Y",
+    "https://rtschool.amocrm.ru/contacts/list/contacts/page/285/?skip_filter=Y",
+    "https://rtschool.amocrm.ru/contacts/list/contacts/page/286/?skip_filter=Y",
+    "https://rtschool.amocrm.ru/contacts/list/contacts/page/287/?skip_filter=Y",
+    "https://rtschool.amocrm.ru/contacts/list/contacts/page/288/?skip_filter=Y",
+    "https://rtschool.amocrm.ru/contacts/list/contacts/page/289/?skip_filter=Y",
+    "https://rtschool.amocrm.ru/contacts/list/contacts/page/290/?skip_filter=Y",
+    "https://rtschool.amocrm.ru/contacts/list/contacts/page/291/?skip_filter=Y",
+    "https://rtschool.amocrm.ru/contacts/list/contacts/page/292/?skip_filter=Y",
+    "https://rtschool.amocrm.ru/contacts/list/contacts/page/293/?skip_filter=Y",
+    "https://rtschool.amocrm.ru/contacts/list/contacts/page/294/?skip_filter=Y",
+    "https://rtschool.amocrm.ru/contacts/list/contacts/page/295/?skip_filter=Y",
+    "https://rtschool.amocrm.ru/contacts/list/contacts/page/296/?skip_filter=Y"
+  ],
+  "selectors": [
+    {
+      "id": "row",
+      "parentSelectors": ["_root"],
+      "type": "SelectorElement",
+      "selector": ".list-row.js-list-row",
+      "multiple": true
+    },
+    {
+      "id": "name",
+      "parentSelectors": ["row"],
+      "type": "SelectorText",
+      "selector": "[data-field-id=\"name\"] .list-row__template-name__name",
+      "multiple": false,
+      "regex": ""
+    },
+    {
+      "id": "tags",
+      "parentSelectors": ["row"],
+      "type": "SelectorText",
+      "selector": "[data-field-id=\"name\"] .list-row__template-name__tags",
+      "multiple": false,
+      "regex": ""
+    },
+    {
+      "id": "company_name",
+      "parentSelectors": ["row"],
+      "type": "SelectorText",
+      "selector": "[data-field-id=\"company_name\"]",
+      "multiple": false,
+      "regex": ""
+    },
+    {
+      "id": "phone",
+      "parentSelectors": ["row"],
+      "type": "SelectorText",
+      "selector": "[data-field-id=\"436949\"]",
+      "multiple": false,
+      "regex": ""
+    },
+    {
+      "id": "email",
+      "parentSelectors": ["row"],
+      "type": "SelectorText",
+      "selector": "[data-field-id=\"436951\"]",
+      "multiple": false,
+      "regex": ""
+    }
+  ]
+}
