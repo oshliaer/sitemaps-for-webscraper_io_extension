@@ -1,0 +1,54 @@
+{
+  "_id": "https___www_youtube_com_playlist_list_WL",
+  "startUrl": ["https://www.youtube.com/playlist?list=WL"],
+  "selectors": [
+    {
+      "delay": 10000,
+      "elementLimit": 5000,
+      "id": "ytd-playlist-video-renderer",
+      "multiple": true,
+      "parentSelectors": ["_root"],
+      "selector": "ytd-playlist-video-renderer.ytd-playlist-video-list-renderer",
+      "type": "SelectorElementScroll"
+    },
+    {
+      "id": "title",
+      "multiple": false,
+      "parentSelectors": ["ytd-playlist-video-renderer"],
+      "regex": "",
+      "selector": "#video-title",
+      "type": "SelectorText"
+    },
+    {
+      "id": "channel-name",
+      "linkType": "linkFromHref",
+      "multiple": false,
+      "parentSelectors": ["ytd-playlist-video-renderer"],
+      "selector": ".ytd-channel-name a",
+      "type": "SelectorLink"
+    },
+    {
+      "id": "meta1",
+      "multiple": false,
+      "parentSelectors": ["ytd-playlist-video-renderer"],
+      "regex": "",
+      "selector": "#video-info > span:nth-child(1)",
+      "type": "SelectorText"
+    },
+    {
+      "id": "meta2",
+      "multiple": false,
+      "parentSelectors": ["ytd-playlist-video-renderer"],
+      "regex": "",
+      "selector": "#video-info > span:nth-child(3)",
+      "type": "SelectorText"
+    },
+    {
+      "id": "img",
+      "multiple": false,
+      "parentSelectors": ["ytd-playlist-video-renderer"],
+      "selector": "img",
+      "type": "SelectorImage"
+    }
+  ]
+}
