@@ -256,11 +256,83 @@
   ],
   "selectors": [
     {
-      "id": "Download",
+      "id": "title",
+      "multiple": false,
       "parentSelectors": ["_root"],
-      "type": "SelectorLink",
+      "regex": "",
+      "selector": "h1.primary-color",
+      "type": "SelectorText"
+    },
+    {
+      "id": "description",
+      "multiple": false,
+      "parentSelectors": ["_root"],
+      "regex": "",
+      "selector": ".description",
+      "type": "SelectorText"
+    },
+    {
+      "id": "prop1",
+      "multiple": false,
+      "parentSelectors": ["_root"],
+      "regex": "",
+      "selector": ".list.nested-links .mb2:nth-child(1)",
+      "type": "SelectorText"
+    },
+    {
+      "id": "prop2",
+      "multiple": false,
+      "parentSelectors": ["_root"],
+      "regex": "",
+      "selector": ".list.nested-links .mb2:nth-child(2)",
+      "type": "SelectorText"
+    },
+    {
+      "id": "prop3",
+      "multiple": false,
+      "parentSelectors": ["_root"],
+      "regex": "",
+      "selector": ".list.nested-links .mb2:nth-child(3)",
+      "type": "SelectorText"
+    },
+    {
+      "id": "prop4",
+      "multiple": false,
+      "parentSelectors": ["_root"],
+      "regex": "",
+      "selector": ".list.nested-links .mb2:nth-child(4)",
+      "type": "SelectorText"
+    },
+    {
+      "id": "prop5",
+      "multiple": false,
+      "parentSelectors": ["_root"],
+      "regex": "",
+      "selector": ".list.nested-links .mb2:nth-child(5)",
+      "type": "SelectorText"
+    },
+    {
+      "id": "prop6",
+      "multiple": false,
+      "parentSelectors": ["_root"],
+      "regex": "",
+      "selector": ".list.nested-links .mb2:nth-child(6)",
+      "type": "SelectorText"
+    },
+    {
+      "id": "prop7",
+      "multiple": false,
+      "parentSelectors": ["_root"],
+      "regex": "",
+      "selector": ".list.nested-links .mb2:nth-child(7)",
+      "type": "SelectorText"
+    },
+    {
+      "id": "Download",
+      "multiple": false,
+      "parentSelectors": ["_root"],
       "selector": ".bg-accent-color:first-of-type",
-      "multiple": false
+      "type": "SelectorLink"
     }
   ]
 }
