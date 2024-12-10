@@ -1,0 +1,40 @@
+{
+  "_id": "wb_scrape_good_price",
+  "startUrl": [
+    "https://www.wildberries.ru/catalog/53251975/detail.aspx",
+    "https://www.wildberries.ru/catalog/14455942/detail.aspx",
+    "https://www.wildberries.ru/catalog/15236907/detail.aspx",
+    "https://www.wildberries.ru/catalog/58138078/detail.aspx",
+    "https://www.wildberries.ru/catalog/126972782/detail.aspx",
+    "https://www.wildberries.ru/catalog/65852343/detail.aspx",
+    "https://www.wildberries.ru/catalog/56402601/detail.aspx",
+    "https://www.wildberries.ru/catalog/54097298/detail.aspx",
+    "https://www.wildberries.ru/catalog/74049204/detail.aspx",
+    "https://www.wildberries.ru/catalog/87180809/detail.aspx",
+    "https://www.wildberries.ru/catalog/90159896/detail.aspx",
+    "https://www.wildberries.ru/catalog/140171065/detail.aspx",
+    "https://www.wildberries.ru/catalog/116854812/detail.aspx",
+    "https://www.wildberries.ru/catalog/66107258/detail.aspx",
+    "https://www.wildberries.ru/catalog/61560455/detail.aspx",
+    "https://www.wildberries.ru/catalog/144299547/detail.aspx",
+    "https://www.wildberries.ru/catalog/19045113/detail.aspx",
+    "https://www.wildberries.ru/catalog/150757409/detail.aspx",
+    "https://www.wildberries.ru/catalog/34984967/detail.aspx",
+    "https://www.wildberries.ru/catalog/72700930/detail.aspx",
+    "https://www.wildberries.ru/catalog/81728391/detail.aspx",
+    "https://www.wildberries.ru/catalog/76793041/detail.aspx",
+    "https://www.wildberries.ru/catalog/7689878/detail.aspx",
+    "https://www.wildberries.ru/catalog/2026369/detail.aspx",
+    "https://www.wildberries.ru/catalog/15834862/detail.aspx"
+  ],
+  "selectors": [
+    {
+      "id": "badge-good-price",
+      "parentSelectors": ["_root"],
+      "type": "SelectorText",
+      "selector": ".badge.badge--good-price.hide",
+      "multiple": false,
+      "regex": ""
+    }
+  ]
+}
